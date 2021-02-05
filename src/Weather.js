@@ -44,7 +44,7 @@ export default function Weather(props) {
            <div className="clearfix">
              <img src={weatherData.iconUrl} alt={weatherData.description} className="float-left"/>
              <div className="float-left"></div>
-             <span className="temperature">{Math.round(weatherData.temperature)}-4</span><span className="unit">°C</span>
+             <span className="temperature">{Math.round(weatherData.temperature)}</span><span className="unit">°C</span>
              </div>
              </div>
              <div className="col-6">
