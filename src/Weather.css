@@ -2,9 +2,21 @@
   border: 1px solid #1eff00;
   padding: 16px;
   margin: 30px auto;
-  border-radius: 4px;
+  border-radius: 11px;
   font-family: Consolas;
   background: black;
+}
+
+.w-100 {
+  border: 5px solid #1eff00;
+  color: #1eff00;
+  background: black;
+}
+
+.form-control {
+  border: 5px solid #1eff00;
+  color: #1eff00;
+  background-color: black;
 }
 
 .Weather form {
@@ -54,4 +66,12 @@
   position: relative;
   top: -32px;
   margin-left: 0px;
+}
+
+.Weather .unit a {
+  color: #f2a4d3;
+}
+
+footer a {
+  color: hotpink;
 }
