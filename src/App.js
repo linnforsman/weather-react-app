@@ -34,7 +34,7 @@ export default function App() {
           >
             Netlify
           </a>
-          .
+          . Built with React framework.
         </footer>
       </div>
     </div>
