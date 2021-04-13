@@ -1,6 +1,12 @@
 .App {
-  max-width: 400px;
-  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    70deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .App footer {

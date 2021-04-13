@@ -34,7 +34,7 @@ export default function App() {
           >
             Netlify
           </a>
-          . Built with React framework.
+          . Built with <a href="https://reactjs.org/">React</a> framework.
         </footer>
       </div>
     </div>
