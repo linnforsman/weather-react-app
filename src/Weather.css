@@ -1,22 +1,52 @@
+:root {
+  --base-color: grey;
+  --secondary-color: black;
+  --accent-color: lightgrey;
+  --accent-color-2: rgb(0, 255, 0);
+}
+
 .Weather {
-  border: 1px solid darkred;
+  border: 15px solid var(--gradient-color);
   padding: 16px;
   margin: 30px auto;
   border-radius: 11px;
-  font-family: Consolas;
-  background-image: linear-gradient(black, grey, lightgrey, white);
+  font-family: "Syncopate", sans-serif;
+  background: #000000; /* fallback for old browsers */
+  opacity: 0.8;
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.w-100 {
-  border: 1px solid darkred;
-  color: darkred;
-  background: orange;
+.search-button {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background: var(--base-color);
+  width: 100%;
+}
+
+.search-button:hover {
+  color: #000000;
+  background: var(--accent-color);
 }
 
 .form-control {
-  border: 5px solid darkred;
-  color: darkred;
-  background-color: orange;
+  border: 1px solid var(--accent-color);
+  color: var(--secondary-color);
+  background-color: var(--base-color);
+  width: 100%;
+}
+
+.form-control:hover {
+  color: var(--base-color);
+  background-color: var(--accent-color);
 }
 
 .Weather form {
@@ -24,7 +54,7 @@
 }
 
 .Weather h1 {
-  color: darkred;
+  color: var(--accent-color);
   font-size: 24px;
   font-weight: 100;
   margin: 20px 0 0 0;
@@ -37,7 +67,7 @@
 }
 
 .Weather li {
-  color: darkred;
+  color: var(--accent-color);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -53,14 +83,14 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: darkred;
+  color: var(--accent-color);
   font-size: 45px;
   line-height: 64px;
   font-weight: 400;
 }
 
 .Weather .unit {
-  color: darkred;
+  color: var(--accent-color);
   font-size: 16px;
   font-weight: 400;
   position: relative;
@@ -69,9 +99,17 @@
 }
 
 .Weather .unit a {
-  color: darkred;
+  color: var(--base-color);
+}
+
+footer {
+  color: var(--secondary-color);
 }
 
 footer a {
-  color: darkred;
+  color: var(--accent-color);
+}
+
+footer a:hover {
+  color: var(--accent-color-2);
 }
