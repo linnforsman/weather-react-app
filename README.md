@@ -1,2 +1,2 @@
 # Weather React App
-A React application project that was worked on from 18th January to 25 January 2021 in [SheCodes React workshop](https://www.shecodes.io/certificates/9e069b88ada4aaa3615da32c4f88b642?_gl=1*1y3lq18*_gcl_au*MTQ5NTA1MjM5MC4xNzE2OTkxNTk5).
+⚛ A React application project that was worked on from 18th January to 25 January 2021 in [SheCodes React workshop](https://www.shecodes.io/certificates/9e069b88ada4aaa3615da32c4f88b642?_gl=1*1y3lq18*_gcl_au*MTQ5NTA1MjM5MC4xNzE2OTkxNTk5).
